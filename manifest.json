@@ -1,16 +1,16 @@
 {
-  "version": "1.0.0+b4",
+  "version": "1.0.0+b5",
   "minecraftVersion": "1.21.11",
   "fabricLoaderVersion": "0.18.4",
   "mod": {
     "fileName": "visuals-1.0.0.jar",
-    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b4/visuals-1.0.0.jar",
-    "sha256": "e10b26b570d35af4b9fe1024c17a5c8554b9586bdc361befe1b434c74a45ca69"
+    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b5/visuals-1.0.0.jar",
+    "sha256": "45589328550571edd168efdbe71fce915da0a84561bcfe1209d2e775236764d7"
   },
   "dependencies": [
     {
       "fileName": "fabric-api-0.141.6+1.21.11.jar",
-      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b4/fabric-api-0.141.6+1.21.11.jar",
+      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b5/fabric-api-0.141.6+1.21.11.jar",
       "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
     }
   ]
