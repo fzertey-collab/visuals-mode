@@ -1,16 +1,24 @@
 {
-  "version": "1.0.0+b6",
+  "version": "1.0.0+b7",
   "minecraftVersion": "1.21.11",
   "fabricLoaderVersion": "0.18.4",
+  "changelog": [
+    "+ Friends (СКМ): добавление друзей колёсиком мыши, зелёный тег в NameTags и TargetHUD",
+    "+ AutoReconnect: авто-переподключение при кике/рестарте с таймером и отменой",
+    "+ ConsumableHUD: счётчик PvP-ресурсов (тотемы, чарки, гэплы, пёрлы, кристаллы, стрелы, опыт)",
+    "+ ItemScroller: быстрый перенос предметов зажатием, ПКМ без Shift и колёсиком",
+    "* Оптимизация ClickGUI: instanced-батчинг, предзапечённые глифы и 1/4 Blur",
+    "* Фикс краша ItemCooldownManagerMixin на кулдаунах + защита .jar (ProGuard + ASM)"
+  ],
   "mod": {
     "fileName": "visuals-1.0.0.jar",
-    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b6/visuals-1.0.0.jar",
-    "sha256": "db75a8e0149352d5e299dc13807eeadb955034d0dfb0f3725344a394566da98b"
+    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b7/visuals-1.0.0.jar",
+    "sha256": "440561de44bfa3f8cbbf44ca7e640064ea5e0bbafd903ca11632d292c9577baa"
   },
   "dependencies": [
     {
       "fileName": "fabric-api-0.141.6+1.21.11.jar",
-      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b6/fabric-api-0.141.6+1.21.11.jar",
+      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b7/fabric-api-0.141.6+1.21.11.jar",
       "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
     }
   ]
