@@ -1,8 +1,9 @@
 {
-  "version": "1.0.0+b9",
+  "version": "1.0.0+b10",
   "minecraftVersion": "1.21.11",
   "fabricLoaderVersion": "0.18.4",
   "changelog": [
+    "+ AuctionHelper: умный сканер аукциона, нахождение самого дешёвого лота, золотая подсветка TOP 1, ценники на слотах, инфо-панель и быстрая покупка (Space)",
     "+ HungerHUD: насыщение в виде 10 золотых сердец + полоска голода",
     "+ HUD Ресайз: удобное изменение размера любого перетаскиваемого HUD (уголок или колёсико в HUD Editor и чате)",
     "* CustomHotbar: чёткие pixel-art иконки (GL_NEAREST), цветные зелья/баффы, блик зачарования, кулдауны и сдвиг ArrayList под баффы",
@@ -12,13 +13,13 @@
   ],
   "mod": {
     "fileName": "visuals-1.0.0.jar",
-    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b9/visuals-1.0.0.jar",
-    "sha256": "e65a8edbcfa8868d89979fbe9a12d7378b2d84e9320330720c89dfef522b11d4"
+    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b10/visuals-1.0.0.jar",
+    "sha256": "18886c422df5056e4a12f6b1d171af33f7d907431d9a595922699071719cee33"
   },
   "dependencies": [
     {
       "fileName": "fabric-api-0.141.6+1.21.11.jar",
-      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b9/fabric-api-0.141.6+1.21.11.jar",
+      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b10/fabric-api-0.141.6+1.21.11.jar",
       "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
     }
   ]
