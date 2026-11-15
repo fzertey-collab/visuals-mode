@@ -3,18 +3,14 @@
   "minecraftVersion": "1.21.11",
   "fabricLoaderVersion": "0.18.4",
   "changelog": [
-    "+ AuctionHelper: умный сканер аукциона, нахождение самого дешёвого лота, золотая подсветка TOP 1, ценники на слотах, инфо-панель и быстрая покупка (Space)",
-    "+ HungerHUD: насыщение в виде 10 золотых сердец + полоска голода",
-    "+ HUD Ресайз: удобное изменение размера любого перетаскиваемого HUD (уголок или колёсико в HUD Editor и чате)",
-    "* CustomHotbar: чёткие pixel-art иконки (GL_NEAREST), цветные зелья/баффы, блик зачарования, кулдауны и сдвиг ArrayList под баффы",
-    "* CustomTabList: отображение цветных префиксов донатов игроков (RGB/hex/smallcaps)",
-    "+ Hitboxes, Pearl Landing, ViewModel, EnchantGlint, CustomHotbar/Tab, ActionBarStyler, ChestSort, CommandMacros",
-    "+ Лаунчер: анализатор крашей, менеджер скриншотов, мульти-аккаунты и авто-вход на сервер"
+    "+ MeteorGuiScreen: новый 3-колоночный GUI в стиле Meteor (категории / модули / настройки)",
+    "+ ClickGUI: третий вариант стиля - Meteor (ClickGUI > Стиль)",
+    "* Modern и Dropdown GUI сохранены без изменений"
   ],
   "mod": {
     "fileName": "visuals-1.0.0.jar",
     "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b11/visuals-1.0.0.jar",
-    "sha256": "3cd88a59c564309351d74a3d683aa0ea31fa8fe770c6626d15d737ac060c92c6"
+    "sha256": "1aad06c6165be3c97aa89a908f0672aaf4a76fbaa5f9b1fcbad51dc93cfbd9af"
   },
   "dependencies": [
     {
