@@ -1,8 +1,12 @@
 {
-  "version": "1.0.0+b12",
+  "version": "1.0.0+b13",
   "minecraftVersion": "1.21.11",
   "fabricLoaderVersion": "0.18.4",
   "changelog": [
+    "+ MeteorGUI Redesign: обновлён дизайн по примерам (3-колоночный Masonry с карточками модулей, чекбоксами [✓], слайдерами с бейджами значений, дропдаунами и цветовыми плашками)",
+    "+ Нижний плавающий док (Capsule Dock): иконки Combat, Movement, Render, Misc, Helpers, Settings и аватар",
+    "+ Центральный модал (Overlay): поиск элементов по меню в реальном времени, описание категорий, превью модулей и профиль CatFly",
+    "+ Плавающая кнопка поиска в правом нижнем углу",
     "+ MeteorGui: новый 3-колоночный GUI в стиле Meteor (Категории | Модули | Настройки)",
     "+ ClickGUI: стиль по умолчанию Meteor (также доступны Modern и Dropdown) с быстрым переключением прямо из меню",
     "+ Исправлен краш ArrayIndexOutOfBoundsException при открытии Meteor GUI",
@@ -10,19 +14,17 @@
     "+ HungerHUD: насыщение в виде 10 золотых сердец + полоска голода",
     "+ HUD Ресайз: удобное изменение размера любого перетаскиваемого HUD (уголок или колёсико в HUD Editor и чате)",
     "* CustomHotbar: чёткие pixel-art иконки (GL_NEAREST), цветные зелья/баффы, блик зачарования, кулдауны и сдвиг ArrayList под баффы",
-    "* CustomTabList: отображение цветных префиксов донатов игроков (RGB/hex/smallcaps)",
-    "+ Hitboxes, Pearl Landing, ViewModel, EnchantGlint, CustomHotbar/Tab, ActionBarStyler, ChestSort, CommandMacros",
-    "+ Лаунчер: анализатор крашей, менеджер скриншотов, мульти-аккаунты и авто-вход на сервер"
+    "* CustomTabList: отображение цветных префиксов донатов игроков (RGB/hex/smallcaps)"
   ],
   "mod": {
     "fileName": "visuals-1.0.0.jar",
-    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b12/visuals-1.0.0.jar",
-    "sha256": "3e5b8feb9e00c89b79db9419fcde73136cbeca1681554e89819b0cc45d1fb28b"
+    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b13/visuals-1.0.0.jar",
+    "sha256": "c8e2d427629c1ee78ddd0d87a600a7a22553937ba5171de797f1d4ed5f10f17c"
   },
   "dependencies": [
     {
       "fileName": "fabric-api-0.141.6+1.21.11.jar",
-      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b12/fabric-api-0.141.6+1.21.11.jar",
+      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b13/fabric-api-0.141.6+1.21.11.jar",
       "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
     }
   ]
