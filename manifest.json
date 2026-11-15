@@ -1,8 +1,10 @@
 {
-  "version": "1.0.0+b13",
+  "version": "1.0.0+b14",
   "minecraftVersion": "1.21.11",
   "fabricLoaderVersion": "0.18.4",
   "changelog": [
+    "+ ColorPicker Fix: зафиксировано окно палитры (больше не ездит за мышкой), мгновенный выбор оттенка кликом, плавная протяжка и 9 быстрых пресетов цветов",
+    "+ Config Manager: полноценное управление конфигами в Meteor GUI (создание, ввод имени, сохранение, загрузка и удаление)",
     "+ MeteorGUI Redesign: обновлён дизайн по примерам (3-колоночный Masonry с карточками модулей, чекбоксами [✓], слайдерами с бейджами значений, дропдаунами и цветовыми плашками)",
     "+ Нижний плавающий док (Capsule Dock): иконки Combat, Movement, Render, Misc, Helpers, Settings и аватар",
     "+ Центральный модал (Overlay): поиск элементов по меню в реальном времени, описание категорий, превью модулей и профиль CatFly",
@@ -12,19 +14,17 @@
     "+ Исправлен краш ArrayIndexOutOfBoundsException при открытии Meteor GUI",
     "+ AuctionHelper: умный сканер аукциона, нахождение самого дешёвого лота, золотая подсветка TOP 1, ценники на слотах, инфо-панель и быстрая покупка (Space)",
     "+ HungerHUD: насыщение в виде 10 золотых сердец + полоска голода",
-    "+ HUD Ресайз: удобное изменение размера любого перетаскиваемого HUD (уголок или колёсико в HUD Editor и чате)",
-    "* CustomHotbar: чёткие pixel-art иконки (GL_NEAREST), цветные зелья/баффы, блик зачарования, кулдауны и сдвиг ArrayList под баффы",
-    "* CustomTabList: отображение цветных префиксов донатов игроков (RGB/hex/smallcaps)"
+    "+ HUD Ресайз: удобное изменение размера любого перетаскиваемого HUD (уголок или колёсико в HUD Editor и чате)"
   ],
   "mod": {
     "fileName": "visuals-1.0.0.jar",
-    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b13/visuals-1.0.0.jar",
-    "sha256": "c8e2d427629c1ee78ddd0d87a600a7a22553937ba5171de797f1d4ed5f10f17c"
+    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b14/visuals-1.0.0.jar",
+    "sha256": "1e1136da575f1c8e4a6b664e72204842bbb6db7a3b62ad3b121d130c73bbba0d"
   },
   "dependencies": [
     {
       "fileName": "fabric-api-0.141.6+1.21.11.jar",
-      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b13/fabric-api-0.141.6+1.21.11.jar",
+      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b14/fabric-api-0.141.6+1.21.11.jar",
       "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
     }
   ]
