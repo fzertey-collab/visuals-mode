@@ -1,21 +1,28 @@
 {
-  "version": "1.0.0+b11",
+  "version": "1.0.0+b12",
   "minecraftVersion": "1.21.11",
   "fabricLoaderVersion": "0.18.4",
   "changelog": [
-    "+ MeteorGuiScreen: новый 3-колоночный GUI в стиле Meteor (категории / модули / настройки)",
-    "+ ClickGUI: третий вариант стиля - Meteor (ClickGUI > Стиль)",
-    "* Modern и Dropdown GUI сохранены без изменений"
+    "+ MeteorGui: новый 3-колоночный GUI в стиле Meteor (Категории | Модули | Настройки)",
+    "+ ClickGUI: стиль по умолчанию Meteor (также доступны Modern и Dropdown) с быстрым переключением прямо из меню",
+    "+ Исправлен краш ArrayIndexOutOfBoundsException при открытии Meteor GUI",
+    "+ AuctionHelper: умный сканер аукциона, нахождение самого дешёвого лота, золотая подсветка TOP 1, ценники на слотах, инфо-панель и быстрая покупка (Space)",
+    "+ HungerHUD: насыщение в виде 10 золотых сердец + полоска голода",
+    "+ HUD Ресайз: удобное изменение размера любого перетаскиваемого HUD (уголок или колёсико в HUD Editor и чате)",
+    "* CustomHotbar: чёткие pixel-art иконки (GL_NEAREST), цветные зелья/баффы, блик зачарования, кулдауны и сдвиг ArrayList под баффы",
+    "* CustomTabList: отображение цветных префиксов донатов игроков (RGB/hex/smallcaps)",
+    "+ Hitboxes, Pearl Landing, ViewModel, EnchantGlint, CustomHotbar/Tab, ActionBarStyler, ChestSort, CommandMacros",
+    "+ Лаунчер: анализатор крашей, менеджер скриншотов, мульти-аккаунты и авто-вход на сервер"
   ],
   "mod": {
     "fileName": "visuals-1.0.0.jar",
-    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b11/visuals-1.0.0.jar",
-    "sha256": "1aad06c6165be3c97aa89a908f0672aaf4a76fbaa5f9b1fcbad51dc93cfbd9af"
+    "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b12/visuals-1.0.0.jar",
+    "sha256": "3e5b8feb9e00c89b79db9419fcde73136cbeca1681554e89819b0cc45d1fb28b"
   },
   "dependencies": [
     {
       "fileName": "fabric-api-0.141.6+1.21.11.jar",
-      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b11/fabric-api-0.141.6+1.21.11.jar",
+      "url": "https://github.com/fzertey-collab/visuals-mode/releases/download/v1.0.0-b12/fabric-api-0.141.6+1.21.11.jar",
       "sha256": "bdff7fd7e220085cfad2ff9b1f40dde6534ae0b96cf378f97a374bc54cb9ed0f"
     }
   ]
